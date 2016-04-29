@@ -2,7 +2,7 @@
 
 This LArLite repository is designed to contain modules which refine shower quantities after shower reconstruction has been run. This generally involves the comparison of the reconstructed shower profile itself (ie. the cone) with the initial hits and clusters, and resolving any tensions between the two.
 
-## ShowerHitRefiner
+## ShowerHitRestorer
 
 This module is designed to be run after LArLite ShowerReco3D. It searches for any shower hits that have been missed during the clustering stage, and then reintegrates them into the shower.
 
